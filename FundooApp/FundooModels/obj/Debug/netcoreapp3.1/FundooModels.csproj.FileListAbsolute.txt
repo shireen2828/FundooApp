@@ -1,0 +1,13 @@
+E:\FundooApp\FundooModels\bin\Debug\netcoreapp3.1\FundooModels.exe
+E:\FundooApp\FundooModels\bin\Debug\netcoreapp3.1\FundooModels.deps.json
+E:\FundooApp\FundooModels\bin\Debug\netcoreapp3.1\FundooModels.runtimeconfig.json
+E:\FundooApp\FundooModels\bin\Debug\netcoreapp3.1\FundooModels.runtimeconfig.dev.json
+E:\FundooApp\FundooModels\bin\Debug\netcoreapp3.1\FundooModels.dll
+E:\FundooApp\FundooModels\bin\Debug\netcoreapp3.1\FundooModels.pdb
+E:\FundooApp\FundooModels\obj\Debug\netcoreapp3.1\FundooModels.csprojAssemblyReference.cache
+E:\FundooApp\FundooModels\obj\Debug\netcoreapp3.1\FundooModels.AssemblyInfoInputs.cache
+E:\FundooApp\FundooModels\obj\Debug\netcoreapp3.1\FundooModels.AssemblyInfo.cs
+E:\FundooApp\FundooModels\obj\Debug\netcoreapp3.1\FundooModels.csproj.CoreCompileInputs.cache
+E:\FundooApp\FundooModels\obj\Debug\netcoreapp3.1\FundooModels.dll
+E:\FundooApp\FundooModels\obj\Debug\netcoreapp3.1\FundooModels.pdb
+E:\FundooApp\FundooModels\obj\Debug\netcoreapp3.1\FundooModels.genruntimeconfig.cache
