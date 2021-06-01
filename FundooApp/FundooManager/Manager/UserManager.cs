@@ -33,6 +33,18 @@ namespace FundooManager.Manager
                 throw new Exception(ex.Message);
             }
         }
+        public bool ResetPassword(ResetPasswordModel resetModel)
+        {
+            try
+            {
+                bool result = this.repository.ResetPassword(resetModel);
+                return result;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
         public bool SendEmail(string emailAddress)
         {
             try
@@ -46,5 +58,16 @@ namespace FundooManager.Manager
             }
         }
 
+        public string GenerateToken(string email)
+        {
+            try
+            {
+                return this.repository.GenerateToken(email);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
     }
 }

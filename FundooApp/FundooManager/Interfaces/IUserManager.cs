@@ -9,8 +9,8 @@ namespace FundooManager.Interfaces
     {
         public bool AddNewUser(RegisterModel userData);
         public bool Login(string email, string password);
+        public bool ResetPassword(ResetPasswordModel resetModel);
         public bool SendEmail(string emailAddress);
+        public string GenerateToken(string email);
     }
-
-
 }

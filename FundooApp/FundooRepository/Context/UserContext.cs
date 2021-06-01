@@ -1,4 +1,5 @@
-﻿using FundooModels;
+﻿using FundooModel;
+using FundooModels;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,7 @@ namespace FundooRepository.Context
 {
     public class UserContext : DbContext
     {
+
         public UserContext(DbContextOptions<UserContext> options) : base(options)
         {
         }
@@ -17,6 +19,16 @@ namespace FundooRepository.Context
             set;
         }
         public DbSet<NotesModel> Notes
+        {
+            get;
+            set;
+        }
+        public DbSet<CollaboratorModel> CollaboratorModels
+        {
+            get;
+            set;
+        }
+        public DbSet<LabelModel> LabelModels
         {
             get;
             set;
